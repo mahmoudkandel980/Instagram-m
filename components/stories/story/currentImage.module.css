@@ -1,0 +1,65 @@
+.storyTimerLine {
+    animation: storytimerLine 6s linear;
+    width: 100%;
+}
+
+@keyframes storytimerLine {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.currentPhoto {
+    animation: currentPhoto 1s both;
+    opacity: 100%;
+}
+
+@keyframes currentPhoto {
+    0% {
+        background-color: rgb(20, 21, 22, 0.3);
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+.othersPhotos {
+    animation: othersPhotos 1s both;
+}
+
+@keyframes othersPhotos {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: rgb(20, 21, 22, 0.3);
+    }
+}
+
+.zeroOpacit {
+    animation: zeroOpacit 0.5s both;
+}
+
+@keyframes zeroOpacit {
+    0% {
+        opacity: 100;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.fullOpacit {
+    animation: fullOpacit 2s both;
+}
+
+@keyframes fullOpacit {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
