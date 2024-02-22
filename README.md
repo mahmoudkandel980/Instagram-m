@@ -15,7 +15,7 @@ You can go to project live [Instgram Clone](https://inst-980.netlify.app/).
 
 -   authentication and database handled by firebase.
 -   can create an account by sign up by email and password or by your facebook acount you can change password if you forgot it.
--   You can create, edit, remove save a post.
+-   You can create, edit, remove post.
 -   You can save a post.
 -   You can create, edit, remove comment on a post.
 -   You can create, edit, remove reply on a comment and tag others people on your reply.
